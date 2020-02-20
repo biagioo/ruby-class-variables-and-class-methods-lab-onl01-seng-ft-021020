@@ -29,8 +29,9 @@ class Song
   end 
   
   def self.genre_count 
-    genre_count = {}
-    @@genres.each 
+   binding.pry
+    # genre_count = {}
+    # @@genres.each 
   end 
   
   def self.artist_count 
