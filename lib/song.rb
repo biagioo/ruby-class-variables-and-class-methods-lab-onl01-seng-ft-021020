@@ -13,9 +13,9 @@ class Song
     @@count 
   end 
   
-  def self.genres(genre) 
-    if @@genres !(include?(genre))
+  # def self.genres(genre) 
+  #   if @@genres !(include?(genre))
       
-    end
+  #   end
   end 
 end
