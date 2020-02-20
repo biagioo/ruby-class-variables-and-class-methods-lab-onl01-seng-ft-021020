@@ -1,3 +1,4 @@
+require 'pry'
 class Song  
   
   attr_accessor :name, :artist, :genre 
@@ -20,6 +21,7 @@ class Song
   def self.genres(genre) 
     if @@genres.collect do |genre1, genre2| 
       genre1 == genre2 
+      binding.pry
   end 
   
   
