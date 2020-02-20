@@ -22,7 +22,7 @@ class Song
     if @@genres.collect do |genre1, genre2| 
       binding.pry
       genre1 == genre2 
-      
+    end 
   end 
   
   
