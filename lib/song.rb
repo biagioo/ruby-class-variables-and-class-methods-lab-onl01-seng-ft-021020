@@ -18,9 +18,8 @@ class Song
   end 
   
   def self.genres(genre) 
-    if !(@@genres.include?(genre))
-      @@genres.reject(genre)
-    end 
+    if @@genres.collect do |genre1, genre2| 
+      genre1 == genre2 
   end 
   
   
