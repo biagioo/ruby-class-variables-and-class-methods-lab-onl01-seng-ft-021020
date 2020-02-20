@@ -18,13 +18,9 @@ class Song
     @@count 
   end 
   
-  def self.genres(genre) 
-    if @@genres.collect do |genre1, genre2| 
-      genre1 == genre2
+  def self.genres 
       binding.pry
-      end
-    end 
-  end 
+  end  
   
   
   
