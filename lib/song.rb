@@ -1,6 +1,7 @@
 class Song  
   
   attr_accessor :name, :artist, :genre 
+  
   @@count = 0 
   @@genres = []
   
@@ -13,9 +14,4 @@ class Song
     @@count 
   end 
   
-  # # def self.genres(genre) 
-  # #   if @@genres !(include?(genre))
-      
-  # #   end
-  # end 
 end
